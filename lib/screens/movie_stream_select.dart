@@ -46,7 +46,7 @@ class MovieStreamSelect extends StatelessWidget {
                     StreamListWidget(
                       streamName: 'Stream two (multiple player options)',
                       streamLink:
-                          'https://api.123movie.cc/imdb.php?imdb=$movieImdbId&server=vcu',
+                          'https://moviehungershaven.xyz/tplayer/npls1.php?id==$movieId',
                     ),
                     StreamListWidget(
                       streamName: 'Stream three (360p)',
