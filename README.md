@@ -1,6 +1,6 @@
 # Cinemax
 
-Some UI and API functionality from: [Click Here](https://github.com/bimsina/Matinee-Flutter)
+Some UI and API functionality from: [Here](https://github.com/bimsina/Matinee-Flutter)
 
 ## 🚸 Warnings :
 
