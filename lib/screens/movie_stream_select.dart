@@ -51,7 +51,7 @@ class MovieStreamSelect extends StatelessWidget {
                     StreamListWidget(
                       streamName: 'Stream three (360p)',
                       streamLink:
-                          'http://database.gdriveplayer.us/player.php?tmdb=$movieId',
+                          'https://databasegdriveplayer.co/player.php?tmdb=$movieId',
                     ),
                     StreamListWidget(
                       streamName: 'Stream four (multiple player options)',
