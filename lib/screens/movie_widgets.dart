@@ -1,12 +1,12 @@
 // ignore_for_file: avoid_unnecessary_containers
 
 import 'dart:convert';
-import 'package:cinemax/constants/style_constants.dart';
-import 'package:cinemax/modals/social_icons_icons.dart';
-import 'package:cinemax/modals/videos.dart';
-import 'package:cinemax/modals/watch_providers.dart';
-import 'package:cinemax/screens/cast_detail.dart';
-import 'package:cinemax/screens/streaming_services_movies.dart';
+import '/constants/style_constants.dart';
+import '/modals/social_icons_icons.dart';
+import '/modals/videos.dart';
+import '/modals/watch_providers.dart';
+import '/screens/cast_detail.dart';
+import '/screens/streaming_services_movies.dart';
 import 'package:flutter/material.dart';
 import 'package:carousel_slider/carousel_slider.dart';
 import 'package:mixpanel_flutter/mixpanel_flutter.dart';
@@ -15,19 +15,16 @@ import '/modals/movie.dart';
 import '/api/endpoints.dart';
 import '/modals/genres.dart';
 import '/constants/api_constants.dart';
-import 'package:cinemax/screens/movie_detail.dart';
-import 'package:cinemax/modals/credits.dart';
+import '/screens/movie_detail.dart';
+import '/modals/credits.dart';
 import 'collection_detail.dart';
 import 'crew_detail.dart';
-import 'package:cinemax/modals/images.dart';
+import '/modals/images.dart';
 import 'package:http/http.dart' as http;
-import 'package:cinemax/constants/api_constants.dart';
-import 'package:cinemax/api/endpoints.dart';
 import 'package:intl/intl.dart';
 import 'package:url_launcher/url_launcher.dart';
 import 'genremovies.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
-
 import 'movie_stream_select.dart';
 
 class MainMoviesDisplay extends StatelessWidget {
@@ -1656,7 +1653,6 @@ class _CastTabState extends State<CastTab>
             : Container(
                 color: const Color(0xFF202124),
                 child: ListView.builder(
-                    physics: const BouncingScrollPhysics(),
                     itemCount: credits!.cast!.length,
                     itemBuilder: (BuildContext context, int index) {
                       return GestureDetector(
@@ -1679,7 +1675,7 @@ class _CastTabState extends State<CastTab>
                             padding: const EdgeInsets.only(
                               top: 0.0,
                               bottom: 15.0,
-                              left: 15,
+                              left: 10,
                             ),
                             child: Column(
                               children: [
@@ -1688,8 +1684,8 @@ class _CastTabState extends State<CastTab>
                                   //     CrossAxisAlignment.start,
                                   children: [
                                     Padding(
-                                      padding:
-                                          const EdgeInsets.only(right: 20.0),
+                                      padding: const EdgeInsets.only(
+                                          right: 20.0, left: 10),
                                       child: SizedBox(
                                         width: 80,
                                         height: 80,
@@ -1804,7 +1800,6 @@ class _CrewTabState extends State<CrewTab>
             : Container(
                 color: const Color(0xFF202124),
                 child: ListView.builder(
-                    physics: const BouncingScrollPhysics(),
                     itemCount: credits!.crew!.length,
                     itemBuilder: (BuildContext context, int index) {
                       return GestureDetector(
@@ -1827,7 +1822,7 @@ class _CrewTabState extends State<CrewTab>
                             padding: const EdgeInsets.only(
                               top: 0.0,
                               bottom: 15.0,
-                              left: 15,
+                              left: 10,
                             ),
                             child: Column(
                               children: [
@@ -1836,8 +1831,8 @@ class _CrewTabState extends State<CrewTab>
                                   //     CrossAxisAlignment.start,
                                   children: [
                                     Padding(
-                                      padding:
-                                          const EdgeInsets.only(right: 20.0),
+                                      padding: const EdgeInsets.only(
+                                          right: 20.0, left: 10),
                                       child: SizedBox(
                                         width: 80,
                                         height: 80,

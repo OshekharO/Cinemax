@@ -1,13 +1,14 @@
 import 'dart:convert';
-import 'package:cinemax/modals/images.dart';
-import 'package:cinemax/modals/person.dart';
-import 'package:cinemax/modals/tv.dart';
-import 'package:cinemax/modals/videos.dart';
-import 'package:cinemax/modals/watch_providers.dart';
+import '/modals/images.dart';
+import '/modals/person.dart';
+import '/modals/tv.dart';
+import '/modals/videos.dart';
+import '/modals/watch_providers.dart';
 import 'package:http/http.dart' as http;
 import '/modals/credits.dart';
 import '/modals/genres.dart';
 import '/modals/movie.dart';
+import 'package:mixpanel_flutter/mixpanel_flutter.dart';
 
 Future<List<Movie>> fetchMovies(String api) async {
   MovieList movieList;

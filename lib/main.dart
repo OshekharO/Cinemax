@@ -1,5 +1,5 @@
 // ignore_for_file: avoid_unnecessary_containers
-import 'package:cinemax/screens/tv_widgets.dart';
+import '/screens/tv_widgets.dart';
 import 'package:flutter/material.dart';
 import 'package:mixpanel_flutter/mixpanel_flutter.dart';
 import 'screens/common_widgets.dart';
@@ -77,7 +77,9 @@ class _CinemaxHomePageState extends State<CinemaxHomePage>
       appBar: AppBar(
         title: const Text(
           'Cinemax',
-          style: TextStyle(fontFamily: 'PoppinsSB'),
+          style: TextStyle(
+            fontFamily: 'PoppinsSB',
+          ),
         ),
         actions: [
           IconButton(
@@ -109,7 +111,7 @@ class _CinemaxHomePageState extends State<CinemaxHomePage>
                     padding: EdgeInsets.only(right: 8.0),
                     child: Icon(Icons.live_tv_rounded)),
                 Text(
-                  'TV Series',
+                  'TV series',
                 ),
               ],
             ))
