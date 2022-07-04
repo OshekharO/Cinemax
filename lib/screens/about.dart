@@ -74,14 +74,14 @@ class _AboutPageState extends State<AboutPage> {
                   padding: const EdgeInsets.all(8.0),
                   child: GestureDetector(
                     child: const Text(
-                      'Noticed any bugs? Inform me on Telegram, click here',
+                      'Noticed any bugs? Inform me on GitHub, click here',
                       textAlign: TextAlign.center,
                       style: TextStyle(
                           decoration: TextDecoration.underline,
                           decorationStyle: TextDecorationStyle.solid),
                     ),
                     onTap: () {
-                      launch('https://t.me/beamlakaschalew');
+                      launch('https://github.com/OshekharO/Cinemax/issues');
                     },
                   ),
                 ),
@@ -92,7 +92,7 @@ class _AboutPageState extends State<AboutPage> {
                     right: 7.0,
                   ),
                   child: Text(
-                    'Made with ❤️ by Beamlak Aschalew',
+                    'Made by Beamlak Aschalew',
                     textAlign: TextAlign.center,
                     style: TextStyle(fontSize: 20.0),
                   ),
