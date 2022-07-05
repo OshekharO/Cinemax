@@ -43,6 +43,10 @@ In case of copyright infringement, please directly contact the responsible parti
 
 It merely scrapes 3rd-party websites that are publicly accessable via any regular web browser.
 
+#### Author
+
+Original Repository: [BeamlakAschalew](https://github.com/BeamlakAschalew/cinemax)
+
 ---
 <h4 align='center'>© 2022 ツ ѕнєкнєя</h4>
 
