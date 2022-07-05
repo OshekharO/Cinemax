@@ -55,11 +55,15 @@ class MovieStreamSelect extends StatelessWidget {
                     ),
                     StreamListWidget(
                       streamName: 'Stream four (multiple player options)',
+                      streamLink: 'https://openvids.io/tmdb/movie/$movieId',
+                    ),
+                    StreamListWidget(
+                      streamName: 'Stream five (multiple player options)',
                       streamLink: 'https://fsapi.xyz/tmdb-movie/$movieId',
                     ),
                     StreamListWidget(
                       streamName:
-                          'Stream five (360p/480p/720p/1080p - might have ads)',
+                          'Stream six (360p/480p/720p/1080p - might have ads)',
                       streamLink:
                           'https://api.123movie.cc/imdb.php?imdb=$movieImdbId&server=serverf4',
                     ),
