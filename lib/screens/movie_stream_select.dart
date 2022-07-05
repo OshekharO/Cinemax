@@ -61,7 +61,7 @@ class MovieStreamSelect extends StatelessWidget {
                       streamName:
                           'Stream five (360p/480p/720p/1080p - might have ads)',
                       streamLink:
-                          'https://api.123movie.cc/imdb.php?imdb=$movieImdbId&server=hydrax',
+                          'https://api.123movie.cc/imdb.php?imdb=$movieImdbId&server=serverf4',
                     ),
                   ],
                 ),
