@@ -6,7 +6,7 @@ Cinemax is a free and open source Android app for streaming Movies and TV-Series
 
 Some UI and API functionality from: [Here](https://github.com/bimsina/Matinee-Flutter)
 
-## 📱 Screenshots
+### 📱 Screenshots
 <table style={border:"none"}><tr>
 <td><img src="https://user-images.githubusercontent.com/29589003/58170605-93aba280-7cb3-11e9-8733-dff46d1e86c7.png" alt="Screenshot 2"/></td>
 <td><img src="https://user-images.githubusercontent.com/29589003/58170608-93aba280-7cb3-11e9-933f-395501d7a5a0.png" alt="Screenshot 1"/></td>
@@ -20,7 +20,7 @@ Some UI and API functionality from: [Here](https://github.com/bimsina/Matinee-Fl
 
 </table>
 
-## 😇 Contributing
+### 😇 Contributing
 
 Whether you have ideas, translations, design changes, code cleaning, or real heavy code changes, help is always welcome.The more is done the better it gets!
 
@@ -28,7 +28,7 @@ If creating a pull request, please make sure to format your code.
 
 If opening an issue without following the issue template, we will ignore the issue and force close it.
 
-## 🚸 Warnings :
+### 🚸 Warnings :
 
 - This is Just For Educational Purpose
 - DO NOT Sell this, This is 💯% Free
