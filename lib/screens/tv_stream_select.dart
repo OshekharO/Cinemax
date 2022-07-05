@@ -65,6 +65,11 @@ class TVStreamSelect extends StatelessWidget {
                     StreamListWidget(
                       streamName: 'Stream four (multiple player options)',
                       streamLink:
+                          'https://openvids.io/tmdb/episode/$tvSeriesId-$seasonNumber-$episodeNumber',
+                    ),
+                    StreamListWidget(
+                      streamName: 'Stream five (multiple player options)',
+                      streamLink:
                           'https://fsapi.xyz/tv-tmdb/$tvSeriesId-$seasonNumber-$episodeNumber',
                     ),
                   ],
