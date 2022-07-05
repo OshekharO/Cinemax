@@ -4,8 +4,8 @@ const String TMDB_API_BASE_URL = "https://api.themoviedb.org/3";
 const String TMDB_API_KEY = "c2facfc70a02549f7258e485c0fd73cc";
 const String TMDB_BASE_IMAGE_URL = "https://image.tmdb.org/t/p/";
 const String EMBED_BASE_MOVIE_URL =
-    "https://www.2embed.ru/embed/tmdb/movie?id=";
-const String EMBED_BASE_TV_URL = "https://www.2embed.ru/embed/tmdb/tv?id=";
+    "https://2embed.org/embed/movie?tmdb=";
+const String EMBED_BASE_TV_URL = "https://2embed.org/embed/series?tmdb=";
 const String YOUTUBE_THUMBNAIL_URL = "https://i3.ytimg.com/vi/";
 const String YOUTUBE_BASE_URL = "https://youtube.com/watch?v=";
 const String FACEBOOK_BASE_URL = "https://facebook.com/";
