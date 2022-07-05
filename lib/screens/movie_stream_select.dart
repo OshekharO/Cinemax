@@ -41,7 +41,7 @@ class MovieStreamSelect extends StatelessWidget {
                     StreamListWidget(
                       streamName: 'Stream one (multiple player options)',
                       streamLink:
-                          'https://www.2embed.ru/embed/tmdb/movie?id=$movieId',
+                          'https://2embed.org/embed/movie?tmdb=$movieId',
                     ),
                     StreamListWidget(
                       streamName: 'Stream two (multiple player options)',
