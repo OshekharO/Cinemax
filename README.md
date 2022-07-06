@@ -1,3 +1,8 @@
+# Author
+
+Original Repository: [BeamlakAschalew](https://github.com/BeamlakAschalew/cinemax)
+
+
 <div align="center">
   <img src="https://rawcdn.githack.com/OshekharO/Cinemax/154e755aa808585ae24ea1c4784e7e3d82fd395d/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" width="auto" height="auto" alt="kotatsu">
 </div>
@@ -42,10 +47,6 @@ Kotatsu does not host any content on the app, and has no control over what media
 In case of copyright infringement, please directly contact the responsible parties or the streaming websites.
 
 It merely scrapes 3rd-party websites that are publicly accessable via any regular web browser.
-
-#### Author
-
-Original Repository: [BeamlakAschalew](https://github.com/BeamlakAschalew/cinemax)
 
 ---
 <h4 align='center'>© 2022 ツ ѕнєкнєя</h4>
