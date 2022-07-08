@@ -967,7 +967,7 @@ class SocialIconWidget extends StatelessWidget {
             padding: const EdgeInsets.all(8.0),
             child: GestureDetector(
               onTap: () {
-                launch(url!);
+                launchUrl(Uri.parse(url!));
               },
               child: Container(
                 height: 50,
@@ -1172,8 +1172,8 @@ class _MovieVideosState extends State<MovieVideosDisplay> {
                               padding: const EdgeInsets.all(8.0),
                               child: GestureDetector(
                                 onTap: () {
-                                  launch(YOUTUBE_BASE_URL +
-                                      movieVideos!.result![index].videoLink!);
+                                  launchUrl(Uri.parse(YOUTUBE_BASE_URL +
+                                      movieVideos!.result![index].videoLink!));
                                 },
                                 child: SizedBox(
                                   height: 205,

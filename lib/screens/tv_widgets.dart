@@ -1618,8 +1618,8 @@ class _TVVideosDisplayState extends State<TVVideosDisplay> {
                               padding: const EdgeInsets.all(8.0),
                               child: GestureDetector(
                                 onTap: () {
-                                  launch(YOUTUBE_BASE_URL +
-                                      tvVideos!.result![index].videoLink!);
+                                  launchUrl(Uri.parse(YOUTUBE_BASE_URL +
+                                      tvVideos!.result![index].videoLink!));
                                 },
                                 child: SizedBox(
                                   height: 150,
@@ -1654,11 +1654,11 @@ class _TVVideosDisplayState extends State<TVVideosDisplay> {
                                                     child: SizedBox(
                                                       child: Column(
                                                         children: [
-                                                          Icon(
+                                                          const Icon(
                                                             Icons.play_arrow,
                                                             size: 90,
                                                           ),
-                                                          //TODO: modify this shit, it was to test if the network class was working
+                                                          //TODO: modify this code, it was to test if the network class was working
                                                           Text(tvDetails!
                                                               .networks![0]
                                                               .networkName!),
